@@ -98,14 +98,7 @@ export default function Home() {
                           Names
                         </label>
                       </div>
-                      <div>
-                        <button
-                          onClick={addName}
-                          className="w-6 text-center text-white bg-blue-600 rounded-full hover:bg-blue-700 ease content-center"
-                        >
-                          +
-                        </button>
-                      </div>
+                      
                     </div>
                     {names.map((name, id) => {
                       return (
@@ -123,6 +116,14 @@ export default function Home() {
                       );
                     })}
                   </div>
+                  <div>
+                        <button
+                          onClick={addName}
+                          className="p-4 text-center text-white bg-gray-400 rounded-lg hover:bg-gray-600 ease content-center"
+                        >
+                          Add Participant
+                        </button>
+                      </div>
 
                   <div className="relative">
                     <button
