@@ -30,7 +30,7 @@ export default function Home() {
 
   const reset = () => {
     setNames(["", "", ""]);
-    setPairings([]);
+    setPairings(null);
   };
 
   const generate = () => {
@@ -153,7 +153,7 @@ export default function Home() {
               return (
                 <li key={id}>
                   {result.santa}{" "}
-                  <span className="text-lg italic">should buy for</span>{" "}
+                  <span className="text-lg italic">buys for</span>{" "}
                   {result.toBuyFor}
                 </li>
               );
