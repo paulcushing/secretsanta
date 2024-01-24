@@ -77,7 +77,7 @@ export default function Home() {
                     </h2>
                   </div>
                   <p className="text-2xl text-gray-700">
-                    We've created a simple form to generate random selections so
+                    I've created a simple form to generate random selections so
                     everyone in your list gets a gift and no one is left out.
                   </p>
                 </div>
